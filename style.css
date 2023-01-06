@@ -1,0 +1,500 @@
+body{
+	margin: 0;
+	font-family: myriad pro;
+}
+
+
+
+.main-menu{
+ background: #272444;
+ text-transform: capitalize;
+ 
+ padding: 10px 0;
+}
+.main-menu:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+.main-menu ul{
+  list-style: none;
+  margin: 0;
+  float: left;
+}
+.main-menu ul li{
+  float: left;
+  position: relative;
+}
+
+.main-menu .bar i{
+	float: right;
+}
+.main-menu ul li a{
+	font-size: 15px;
+}
+.main-menu ul li a, .main-menu .bar{
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 20px;
+
+}
+.main-menu .bar{
+	background: blue;
+	display: none;
+}
+.main-menu ul li:hover a, .main-menu ul .current a{
+    background: #3757D4;
+}
+
+.main-menu ul li img{
+	width: 60px;
+	height: 50px;
+	margin-right: 400px;
+}
+
+
+
+/**sub menu**/
+
+  /*importent*/
+.main-menu ul ul{
+	padding: 0;
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 100%;
+
+}
+.main-menu ul ul li{
+	float: none;
+	min-width: 130px;
+} 
+
+
+
+
+.main-menu ul ul li:hover a{
+	background: #192A56;
+}
+
+
+/*** header ***/
+.header-section{
+	 background-image: url('images/first.png');
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 background-attachment: fixed;
+	 background-position: center;
+	 padding-top: 100px;
+	 overflow: hidden;
+}
+h3{
+	margin: 0;
+	font-size: 50px;
+    color: white;
+	font-family: myriad pro;
+	font-weight: 700;
+	font-style: italic;
+
+
+
+
+}
+.header-text p{
+  font-family: myriad pro;
+  font-size: 40px;
+  color: black;
+  line-height: 1.5em;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+
+
+
+.button{
+	background: #3687FF;
+	padding: 20px 70px;
+	color: white;
+	margin-bottom: 150px;
+	text-transform: capitalize;
+}
+.button:hover{
+	background: #17C1A4;
+	color: white;
+
+}
+
+
+
+
+/*** service***/
+.service-section{
+	 background-image: url('images/secound.png');
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	  background-attachment: fixed;
+	 padding: 100px 0;
+	 overflow: hidden;
+}
+.service-header h2{
+	color: white;
+	font-family: myriad pro;
+	font-weight: 700;
+	font-size: 40px;
+	word-spacing: 10px;
+	padding-bottom: 20px;
+
+}
+.service-header h2:hover{
+	color: #17C1A4;
+}
+.service-header p{
+	color: white;
+	font-family: myriad pro;
+	font-size: 20px;
+	padding-bottom: 50px;
+}
+.service-provide h4{
+	color: white;
+	font-family: myriad pro;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 50px;
+}
+.service-provide h4:hover{
+	color: #17C1A4;
+	
+}
+.service-provide p{
+	color: white;
+	font-family: myriad pro;
+	font-size: 20px;
+}
+
+
+/***t ea m***/
+
+.born img{
+	float: left;
+}
+.team-details img{
+	width: 200px;
+	height: auto;
+	margin-bottom: 30px;
+	margin-top: 50px;
+    overflow: hidden;
+}
+.team-header h2{
+	color: white;
+	font-family: myriad pro;
+	font-size: 40px;
+	word-spacing: 20px;
+	font-weight: bold;
+}
+.team-header p{
+    color: white;
+	font-family: myriad pro;
+	font-size: 20px;	
+	
+}
+.about-team{
+	background: #3B3355;
+	padding: 100px;
+}
+.team-details h4,a{
+	font-family: myriad pro;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-top: 50px; 
+}
+.team-details h4{
+	color: white;
+}
+.team-details h4:hover{
+    color: #17C1A4;
+}
+.team-details p{
+	font-family: myriad pro;
+	font-size: 17px;
+	margin-top: 20px;
+	color: white;
+}
+/***killed**/
+.skilled-text h2{
+    color: white;
+	font-family: myriad pro;
+	font-size: 40px;
+	word-spacing: 20px;
+	font-weight: bold;
+}
+.skilled-text p{
+	font-family: myriad pro;
+	font-size: 17px;
+	margin-top: 20px;
+	margin-bottom: 70px;
+	color: white;
+}
+.skilled-detials h4{
+	color: white;
+    font-family: myriad pro;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 20px;
+
+}
+.our-skilled{
+	background-image: url('images/baner.png');
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	  background-attachment: fixed;
+	 padding: 100px 0;
+     overflow: hidden;
+}
+
+ //**justify plugins pie chart**//
+.pie-title-center {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+.pie-value {
+  display: block;
+  position: absolute;
+  font-size: 40px;
+  height: 40px;
+  top: 37%;
+  left: 0;
+  right: 0;
+  margin-top: -20px;
+  line-height: 40px;
+  color: white;
+}
+
+/***portfolio***/
+.portfolio{
+	background: #272444;
+	overflow: hidden;
+	padding-top: 100px;
+}
+ 
+ .box{
+ 	background: #3595FF;
+	padding: 20px 70px;
+	color: white;
+	margin-bottom: 150px;
+	text-transform: capitalize;
+ }
+ .box:hover{
+ 	background:  #17C1A4;
+ 	color: white;
+ }
+.portfolio-header h2{
+    font-family: myriad pro;
+	font-size: 40px;
+	word-spacing: 20px;
+	font-weight: bold;
+	margin-bottom: 30px;
+	color: white;	
+}
+.portfolio-header p{
+	font-family: myriad pro;
+	font-size: 20px;
+	margin-top: 20px;
+	
+}
+.portfolio-header ul li a{
+	color: white;
+	text-decoration:  none;
+	
+	
+}
+.portfolio-header ul li{
+	margin: 40px 25px;
+	cursor: pointer;
+}
+.portfolio-header ul li:hover{
+	background: #17C1A4;
+}
+.portfolio-detials h2{
+	font-family: myriad pro;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 20px;
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 30px;
+	color: white;
+}
+.portfolio-detials img{
+	 width: 450px;
+	 margin: auto;
+	 
+}
+
+/***people-opinion***/
+.opinion-detials img{
+    width: 150px;
+	height: auto;
+	margin-bottom: 10px;
+	margin-top: 30px;
+    overflow: hidden;
+}
+.opinion-detials p{
+    font-family: myriad pro;
+	font-size: 20px;
+	color: white;	
+}
+
+.opinion-detials h2{
+	font-family: myriad pro;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+
+}
+.opinion-header h2{
+    font-family: myriad pro;
+	font-size: 40px;
+	word-spacing: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+    color: white;
+}
+.opinion-header p{
+
+	font-family: myriad pro;
+	font-size: 40px;
+	color: white;
+	
+}
+.people-opinion{  
+    background-image: url('images/people.png');
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	  background-attachment: fixed;
+	
+     overflow: hidden;
+     display: block;
+ }
+/***get-in-touch**/
+
+ .input-area input{
+ 	padding: 20px 0;
+ 	padding-right: 350px;
+ 	margin: 10px;
+
+ }
+ 
+ 
+ .get-in-touch-header h2{
+ 	font-family: myriad pro;
+	font-size: 50px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+ }
+ .get-in-touch-header p{
+ 	 font-family: myriad pro;
+	font-size: 20px;	
+	margin: 30px 0;
+	color: white;
+ }
+ .get-in-touch{
+ 	 background-color: #36484D;
+	 background-attachment: fixed;
+	 padding-top: 80px;
+     overflow: hidden;
+ }
+ .input-area input{
+ 	background-color: #312E48;
+ 	 border: 2px solid #273A72;
+ 	 color: white;
+ }
+ .touch-body textarea{
+ 	background-color: #312E48;
+ 	border: 2px solid #273A72;
+ 	margin: 20px 0;
+ 	margin-bottom: 50px;
+ 	color: white;
+ }
+
+ /***footer-area***/
+ .footer-area ul li a,p{
+ 	color: white;
+ 	text-transform: capitalize;
+ }
+ .footer-area{
+ 	padding-top: 30px;
+ 	background-color: #272444;
+ }
+ .footer a{
+ 	text-transform: lowercase;
+ 	color:#D5DCEA;
+ }
+
+
+
+ @media all and (max-width: 767px){
+    
+
+     .main-menu ul{
+       padding: 0;
+       display: none;
+     }
+
+	.main-menu ul li{
+		float: none;
+	}
+	.main-menu .bar{
+		display: block;
+	}
+
+	.main-menu ul ul{
+		position: inherit;
+		left: 20px;
+	}
+	.main-menu ul ul li:hover a,
+	.main-menu ul li:hover a{
+        background: transparent;
+	}
+
+}
+ @media all and (max-width: 660px){
+	 .team-details img,p{
+		    width: 100%;
+	 }
+	 
+ }
+ @media all and (max-width: 984px){
+	 
+	 .portfolio-detials img{
+	 width: 300px;
+	 margin: auto;
+	 
+     }
+	 .opinion-detials img{
+    width: 100px;
+	height: auto;
+	
+}
+   .opinion-detials p{
+    
+	font-size: 17px;
+	
+}
+
+   .opinion-detials h2{
+	
+	font-size: 17px;
+	
+
+}
+ }
